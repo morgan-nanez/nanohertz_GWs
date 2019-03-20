@@ -64,10 +64,32 @@ def Mbh2Mbulge(Mbulge):
     Includes scatter in the relation, \epsilon = 0.34
     Answer in solar masses.
     """
-    #MM13
+
+    #!!!! comment/uncomment wanted/unwanted relations !!!!
+    scatter = 0.34
+    
+    #MM13 relation
     exponent = 8.46+1.05*log10(Mbulge/1e11)
-    ans_w_scatter = np.random.normal(exponent,0.34)
+    ans_w_scatter = np.random.normal(exponent,scatter)
     return 10**ans_w_scatter
+
+    #KH13 relation
+    """
+    first_scatter = np.random.normal(0.49, 0.06)
+    second_scatter = np.random.normal(1.16, 0.08)
+    ans = (first_scatter * pow((Mbulge / 1e11), second_scatter))
+    logM = log10(ans)
+    scatterM = np.random.normal(logM, scatter) + 9
+    return 10**scatterM
+    """
+
+    #HR04 relation
+    """
+    first_scatter = (np.random.normal(8.20, 0.1))
+    second_scatter = (np.random.normal(1.12, 0.06))
+    ans = np.random.normal((first_scatter+(second_scatter*log10(Mbulge/1e11))), scatter)
+    return 10**(ans)
+    """
 
 # For GWs: strain, GW frequency and time to coalescence
 
