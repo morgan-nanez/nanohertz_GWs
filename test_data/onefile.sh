@@ -1,5 +1,42 @@
 #cp source destination (destination should be the same for all)
 
-cp test40.txt test0.txt
-cp test50.txt test0.txt
+cp test250.txt test0.txt
+cp test500.txt test0.txt
+cp test750.txt test0.txt
+cp test1000.txt test0.txt
+cp test1250.txt test0.txt
+cp test1500.txt test0.txt
+cp test1750.txt test0.txt
+cp test2000.txt test0.txt
+cp test2250.txt test0.txt
+cp test2500.txt test0.txt
+cp test2750.txt test0.txt
+cp test3000.txt test0.txt
+cp test3250.txt test0.txt
+cp test3500.txt test0.txt
+cp test3750.txt test0.txt
+cp test4000.txt test0.txt
+cp test4250.txt test0.txt
+cp test4500.txt test0.txt
+cp test4750.txt test0.txt
+cp test5000.txt test0.txt
+cp test5250.txt test0.txt
+cp test5500.txt test0.txt
+cp test5750.txt test0.txt
+cp test6000.txt test0.txt
+cp test6250.txt test0.txt
+cp test6500.txt test0.txt
+cp test6750.txt test0.txt
+cp test7000.txt test0.txt
+cp test7250.txt test0.txt
+cp test7500.txt test0.txt
+cp test7750.txt test0.txt
+cp test8000.txt test0.txt
+cp test8250.txt test0.txt
+cp test8500.txt test0.txt
+cp test8750.txt test0.txt
+cp test9000.txt test0.txt
+cp test9250.txt test0.txt
+cp test9500.txt test0.txt
+cp test9750.txt test0.txt
 

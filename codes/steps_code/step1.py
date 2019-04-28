@@ -376,7 +376,7 @@ tot_gal_counter = np.zeros([real_tot]) # keeps track of the total number of gala
 result_file = open("../../test_data/test" + str(arg_number) + ".txt", "a+") # the a+ allows you to create the file and write to it.
 stall_file = open("../../test_data/stalled"+ str(arg_number) +".txt", "a+") #will collect data for the stalled binaries
 
-real_tot = 10 # number of realizations
+real_tot = 250 # number of realizations
 
 #creating the realizations
 for j in range(arg_number,arg_number+real_tot):
